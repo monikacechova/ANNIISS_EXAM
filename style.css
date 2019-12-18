@@ -1,0 +1,920 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	font-family: avenir next;
+	/*	font-family: IM Fell English;*/
+	/*	font-family: Gaz Transport;*/
+}
+
+
+
+
+HTML {
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+/*video css here*/
+.iframe-container {
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;
+}
+
+#myVideo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	padding: 17px;
+
+}
+
+/*
+#myVideo {
+	position: relative;
+	height: auto;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	outline: none;
+
+}
+*/
+
+/*
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 30px;
+	left: 30px;
+	min-width: 70%;
+	min-height: 50%;
+	padding-left: 17px;
+	padding-right: 17px;
+	align-content: center;
+*/
+/*	padding: 12em;*/
+
+
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+	position: relative;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.0);
+	color: #f1f1f1;
+	/*	width: 40%;*/
+	/*	padding-left: 6em;*/
+	/*	padding-top: 35em;*/
+}
+
+
+
+
+
+.content > h1 {
+
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+
+
+}
+
+
+
+.boost {
+	padding-bottom: 38rem;
+	padding-left: 4rem;
+}
+
+#player {
+	display: block;
+	max-width: 100vw !important;
+}
+
+#anniiss-iframe {
+	max-width: 100vw !important;
+}
+
+iframe {
+	display: block;
+	margin: 0px auto;
+
+}
+
+
+/* Style the button used to pause/play the video */
+/*
+.myBtn {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+}
+*/
+
+.myBtn {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px;
+	background: none;
+	/*	border: solid;*/
+	color: whitesmoke;
+	cursor: pointer;
+
+}
+
+
+
+.myBtn:hover {
+	/*	background: #ddd;*/
+	background: none;
+	color: black;
+	border-color: dimgray;
+}
+
+.tick {
+	text-decoration: none;
+	color: white;
+}
+
+
+/*video css above here*/
+
+
+
+
+.logomain {
+	width: 15vw;
+	padding-top: 40vh;
+
+}
+
+.five-star-line {
+	width: 80%;
+	height: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	/*	background-color: #666;*/
+	/*		background-color: aqua;*/
+	background-color: whitesmoke;
+	border: 0 none;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+/*
+#bio {
+	padding-top: 3vh;
+}
+*/
+
+.star {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 6em;
+}
+
+.aboutlogo {
+	max-width: 4vw;
+	height: auto;
+	opacity: .5;
+
+
+}
+
+.aboutfont {
+
+	font-size: 2.3vmax;
+	font-family: Gaz Transport;
+	line-height: 32px;
+	text-align: justify;
+	padding-left: 30px;
+	padding-right: 30px;
+	/*
+	margin-left: auto;
+	margin-right: auto;
+*/
+
+}
+
+#mediabg {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url(img/cc.jpg) center no-repeat;
+	background-size: cover;
+
+}
+
+
+#showsbgpic {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url(img/ff.jpg) center no-repeat;
+	background-size: cover;
+
+}
+
+#aboutbgpic {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url(img/cc.jpg) center no-repeat;
+	background-size: cover;
+
+}
+
+#merchbgpic {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url(img/ee.jpg) center no-repeat;
+	background-size: cover;
+
+}
+
+#photobg {
+	width: 100%;
+	height: 100vh;
+	/*	background: black;*/
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)),
+		url(img/hh.jpg) center no-repeat;
+	background-size: cover;
+
+}
+
+
+/*MRTIN CODE: below*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+
+}
+
+html {
+	font-size: 12px;
+	font-family: "Roboto Cn", sans-serif;
+}
+
+.body2 {
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #eee;
+}
+
+li {
+	cursor: pointer;
+
+}
+
+
+header.backgroundHome {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url(img/two.jpg) center no-repeat;
+	background-size: cover;
+}
+
+.container {
+	max-width: 120rem;
+	width: 90%;
+	margin: 0 auto;
+}
+
+nav {
+	padding-top: 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	line-height: 2.5rem;
+}
+
+.portfolio {
+	font-size: 3rem;
+	font-weight: 300;
+	transform: translateX(-100rem);
+	animation: slideIn 1.5s forwards;
+	overflow-y: hidden;
+
+}
+
+.portfolio span {
+	color: crimson;
+}
+
+/*FLEX BOX UL POSSIBLE position horizontal*/
+
+/*
+nav ul {
+	display: flex;
+}
+*/
+
+/*FLEX BOX UL POSSIBLE position horizontal*/
+
+
+nav ul li {
+	list-style: none;
+	transform: translateX(100rem);
+	animation: slideIn 1s forwards;
+	overflow-y: hidden;
+}
+
+nav ul li:nth-child(1) {
+	animation-delay: 0s;
+}
+
+nav ul li:nth-child(2) {
+	animation-delay: .2s;
+}
+
+nav ul li:nth-child(3) {
+	animation-delay: .6s;
+}
+
+nav ul li:nth-child(4) {
+	animation-delay: 1s;
+}
+
+nav ul li:nth-child(5) {
+	animation-delay: 1.4s;
+}
+
+nav ul li:nth-child(6) {
+	animation-delay: 1.8s;
+}
+
+nav ul li a {
+	padding: 1rem 0;
+	margin: 0 3rem;
+	position: relative;
+	letter-spacing: 2px;
+
+}
+
+
+
+nav ul li a:last-child {
+	margin-right: 0;
+}
+
+nav ul li a::before,
+nav ul li a::after {
+	content: '';
+	position: fixed;
+	width: 100%;
+	height: 1px;
+	background-color: crimson;
+	left: 0;
+	transform: scaleX(0);
+	transition: all, .3s;
+
+}
+
+nav ul li a::before {
+	top: 0;
+	transform-origin: left;
+}
+
+nav ul li a::after {
+	bottom: 0;
+	transform-origin: right;
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after {
+	transform: scaleX(1);
+}
+
+@keyframes slideIn {
+
+
+	to {
+		transform: translateX(0);
+	}
+}
+
+
+/*start about css*/
+
+main {
+	font-family: "Roboto Cn", sans-serif;
+	padding-top: 0rem;
+}
+
+.header2 {
+	background-image: none;
+	background-color: white;
+	width: 100%;
+	height: 35vh;
+	/*	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2));*/
+	background-size: cover;
+}
+
+
+h2 {
+	text-align: center;
+	color: #eee;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.body2 {
+	background-color: white;
+	max-width: 100vw;
+}
+
+
+
+p {
+	/*	display: flex;*/
+	/*	align-content: center;*/
+	text-align: center;
+	padding-left: 20rem;
+	padding-right: 20rem;
+	color: #eee;
+	font-size: 16px;
+}
+
+
+.aboutpic {
+	display: flex;
+	justify-content: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+
+}
+
+/*
+.newhead1 span {
+	display: block;
+}
+
+div.img {
+	text-align: center
+}
+
+footer {
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 1rem;
+
+
+
+}
+*/
+
+/*
+div.img {
+	text-align: center;
+	width: 100%;
+
+}
+
+.link2 {
+	text-decoration: none;
+	color: black;
+}
+
+.newhead {
+	text-decoration: none;
+	color: black;
+	font-family: "Roboto Cn", sans-serif;
+	letter-spacing: 2px;
+
+
+}
+
+.newhead1 {
+	text-decoration: none;
+	color: black;
+	letter-spacing: .5px;
+	font-weight: 300;
+}
+
+.newhead2 {
+	text-decoration: none;
+	color: #eee;
+	letter-spacing: .5px;
+	font-weight: 300;
+	padding-top: 10rem;
+}
+*/
+
+
+/*BEGIN PORTFOLIO PAGE CSS HERE*/
+
+/*
+.linkcolor {
+	color: black;
+	padding-left: 10px;
+}
+
+.linkcolor:hover {
+	color: indianred;
+}
+
+.linkcolormore {
+	color: #eee;
+	padding-left: 10px;
+	letter-spacing: 5px;
+}
+
+.linkcolormore:hover {
+	color: indianred;
+}
+
+.clearpic {
+	background-image: none;
+}
+
+
+.morepic {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url(images/house.jpg) center no-repeat;
+	background-size: cover;
+
+
+}
+
+.morepic footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 0;
+
+}
+
+.workspic {
+	display: flex;
+	justify-content: center;
+	padding-top: 1px;
+	padding-bottom: 2rem;
+
+}
+
+.linked {
+	padding-top: 2.2rem;
+}
+
+.pdf {
+	padding: 50px;
+}
+*/
+
+/*trying to center pic and left text*/
+.workpx {
+	width: 80%;
+	height: auto;
+}
+
+.imagesize {
+	width: 60%;
+	height: 60%;
+}
+
+@media (max-width:400px) {
+	.tick {
+		font-size: 4vw;
+	}
+}
+
+
+@media all and (min-width:360px) and (max-width:900px) {
+	p {
+		font-size: 18px;
+		padding-left: 4rem;
+		padding-right: 4rem;
+
+
+	}
+
+
+
+	.aboutpic {
+		display: flex;
+		justify-content: center;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+
+	}
+
+
+	.workspic {
+		display: flex;
+		justify-content: center;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+
+	}
+
+
+
+
+
+
+	/*trial here shifting nav bar in response mode*/
+
+	nav li {
+		line-height: 3rem;
+
+
+	}
+
+	h2 {
+		padding-top: 3rem;
+	}
+}
+
+@media (min-width: 900px) {
+	.email .linkcolormore {
+		letter-spacing: 10px;
+	}
+}
+
+/*MRTIN CODE: above*/
+
+
+/*video mobile css here*/
+/*
+@media all and (min-width:900px) and (max-width:900px) {
+	.iframe-container {
+		position: relative;
+		width: 100%;
+		padding-bottom: 52.25%;
+		height: 0;
+	}
+
+	.iframe-container iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+}*/
+
+/*merch grid here*/
+.posts {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 2rem;
+	max-width: 1100px;
+	grid-template-rows: 1fr;
+	margin: 0 auto;
+	outline: aqua;
+	padding-top: 4rem;
+
+}
+
+
+/*merch display here*/
+
+
+article {
+	display: flex;
+	justify-content: flex-end;
+	border: 1px white solid;
+	border-radius: 10px;
+	/*	background-color: white;*/
+	font-size: 14px;
+	color: ghostwhite;
+	margin: 1rem;
+	flex-direction: column;
+}
+
+.merch {
+	width: 100%;
+	align-self: center;
+}
+
+h1 {
+	padding: 1rem;
+}
+
+
+/*merch grid here*/
+
+/*
+<<<<<<< HEAD .merch {
+	=======img {
+		<<<<<<< HEAD > > > > > > > origin/master======= > > > > > > > origin/master width: 100%;
+		align-self: center;
+	}
+
+	h1 {
+		padding: 1rem;
+	}
+*/
+/*for shows*/
+.logo {
+	width: 100%;
+	padding: 3rem;
+}
+
+/*
+
+button.show-modal{
+	width: 40%;
+	padding: 2rem;
+	align-self: center;
+	margin-bottom: 2rem;
+
+}
+*/
+/*
+article.event-item{
+	display: flex;
+	flex-direction: column;
+}
+*/
+
+/*
+.modal_background {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal_content {
+	background-color: #fefefe;
+	border: 1px solid #7c1f17;
+	margin: 1em;
+	padding: 2em;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+
+}*/
+
+article button {
+	justify-content: center;
+	background: whitesmoke;
+	border-radius: 25px;
+	width: 100%;
+	padding: 1rem;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	color: black;
+	transition: all 0.4s;
+	cursor: pointer;
+	margin-top: auto;
+}
+
+section.post {
+	display: flex;
+	flex-direction: column;
+}
+
+.hide {
+	display: none;
+}
+
+.modal_content img {
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+article ul li {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+
+}
+
+article .head {
+	width: 100%;
+
+}
+
+article .list {
+	width: 100%;
+}
+
+article .container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+/*
+.bcVideo{
+	width: 100%;
+}
+
+*/
+#container1 {
+	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 17px;
+	justify-content: center;
+	flex-direction: row;
+
+}
+
+/*
+.bcPromo img {
+	width: 23.75vw;
+	margin: 5px;
+
+}
+*/
+
+/*
+.bcVideo{
+	padding-top: 56.25%;
+
+	margin: 5px:
+
+}
+*/
+#container1 {
+	position: relative;
+	overflow: hidden;
+}
+
+.bcVideo {
+	position: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+
+}
+
+.buttonLink {
+	display: flex;
+	justify-content: center;
+	outline: inherit;
+	padding: 2rem;
+}
+
+#anniiss_square {
+	width: 100%;
+	height: 96%;
+	margin: 1rem;
+	display: grid;
+}
+
+iframe {
+	display: grid;
+}
+
+
+
+
+#musicPlayer {
+	display: grid;
+}
+
+.bcVideo {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+	margin: 0px auto;
+	align-content: center;
+}
+
+section #musicPlayer {
+	width: 100%;
+}
+
+section #anniiss_Image {
+	width: 100%;
+}
